@@ -12,4 +12,4 @@ app.
         this.body = 'Hello, ' + name + '!';
     }));
 
-if (!module.parent) app.listen(process.env.PORT || 3000)
+if (!module.parent) app.listen(process.env.PORT || 3000);

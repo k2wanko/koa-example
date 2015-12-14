@@ -12,5 +12,5 @@ app.use(function *(){
     this.body = yield request(options);
 });
 
-if (!module.parent) app.listen(process.env.PORT || 3000)
+if (!module.parent) app.listen(process.env.PORT || 3000);
 
